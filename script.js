@@ -15,7 +15,7 @@ class Rectangle {
 	}
 	getArea()
 	{
-		return `${this.width*this.height}`
+		return this.width*this.height
 	}
 	
 }
@@ -28,7 +28,7 @@ class Square extends Rectangle {
 	}
 	getArea()
 	{
-		return `${this.side*this.side}`
+		return this.side*this.side
 	}
 	getPerimeter()
 	{
