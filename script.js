@@ -5,11 +5,11 @@ class Rectangle {
 		this.width=width
 		this.height=height
 	}
-	get width()
+	get Width()
 	{
 		return this.width
 	}
-	get height()
+	get Height()
 	{
 		return this.height
 	}
