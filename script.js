@@ -15,7 +15,7 @@ class Rectangle {
 	}
 	getArea()
 	{
-		`return ${width*height}`
+		return `${this.width*this.height}`
 	}
 	
 }
@@ -23,11 +23,16 @@ class Rectangle {
 class Square extends Animal {
 	constructor(side)
 	{
+		super(side, side);
 		this.side=side
 	}
 	getArea()
 	{
-		`return ${4*side}`
+		return `${this.side*this.side}`
+	}
+	getPerimeter()
+	{
+		return `${4*this.side}`
 	}
 }
 
